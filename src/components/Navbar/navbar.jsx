@@ -1,8 +1,8 @@
 import React from "react";
-import logoPng from '../../assets/images/logo2.png'
-import './styles.css'
+import logoPng from '../../assets/images/logo.png';
+import './styles.css';
 
-class Navbar extends React.Component {
+export class Navbar extends React.Component {
   render() {
     return (
       <header>
@@ -24,4 +24,3 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
