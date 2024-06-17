@@ -16,16 +16,16 @@ class App extends React.Component {
       <>
         <Navbar />
 
-        <Counter />
-{/* 
+        {/* <Counter /> */}
+
         <section id="articles">
           <Article title="Designing Dashboards" provider="NASA" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos sequi nam tempore adipisci perferendis quam minima quia expedita, possimus dolores iure suscipit laboriosam assumenda at, voluptatum molestiae nihil dolore!" thumbnail={ dashboard} />
         <Article title="Vibrant Portraits of 2020" provider="SpaceNews" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos sequi nam tempore adipisci perferendis quam minima quia expedita, possimus dolores iure suscipit laboriosam assumenda at, voluptatum molestiae nihil dolore!" thumbnail={ dashboard2}/>
         <Article title="36 Days os Malayalam type" provider="Spacefight Now" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos sequi nam tempore adipisci perferendis quam minima quia expedita, possimus dolores iure suscipit laboriosam assumenda at, voluptatum molestiae nihil dolore!" thumbnail={ dashboard3}/>
         <Article title="Designing Dashboards" provider="NASA" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos sequi nam tempore adipisci perferendis quam minima quia expedita, possimus dolores iure suscipit laboriosam assumenda at, voluptatum molestiae nihil dolore!" thumbnail={ dashboard4}/>
         
-        </section> */}
-  
+        </section> 
+   
       </>
     );
   }
